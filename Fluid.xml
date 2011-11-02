@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Fluid">
+  <template name="f:for" value="&lt;f:for each=&quot;{$variable_name$} as=&quot;$as$&quot;&gt;&#10;   $END$&#10;&lt;/f:for&gt;" description="Generate fluid for each snippet" toReformat="false" toShortenFQNames="true">
+    <variable name="variable_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="as" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="f:linkPage" value="&lt;f:link.page pageUid=&quot;$page_uid$&quot;&gt;$END$&lt;/f:link.page&gt;" description="Fluid page link" toReformat="false" toShortenFQNames="true">
+    <variable name="page_uid" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>
+

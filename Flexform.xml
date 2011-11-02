@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Flexform">
+  <template name="flexInput" value="&lt;$field_name$&gt;&#10;  &lt;TCEforms&gt;&#10;    &lt;label&gt;$label$&lt;/label&gt;&#10;    &lt;config&gt;&#10;      &lt;type&gt;input&lt;/type&gt;&#10;      &lt;size&gt;$size$&lt;/size&gt;&#10;    &lt;/config&gt;&#10;  &lt;/TCEforms&gt;&#10;&lt;/$field_name$&gt;&#10;" description="Basic Text Input" toReformat="true" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="size" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="flexLink" value="&lt;$field_name$&gt;&#10;  &lt;TCEforms&gt;&#10;    &lt;label&gt;$label$&lt;/label&gt;&#10;    &lt;config&gt;&#10;      &lt;type&gt;input&lt;/type&gt;&#10;      &lt;wizards type=&quot;array&quot;&gt;&#10;        &lt;_PADDING type=&quot;integer&quot;&gt;2&lt;/_PADDING&gt;&#10;        &lt;link type=&quot;array&quot;&gt;&#10;          &lt;type&gt;popup&lt;/type&gt;&#10;          &lt;title&gt;Link&lt;/title&gt;&#10;          &lt;icon&gt;link_popup.gif&lt;/icon&gt;&#10;          &lt;script&gt;browse_links.php?mode=wizard&lt;/script&gt;&#10;          &lt;JSopenParams&gt;height=300,width=500,status=0,menubar=0,scrollbars=1&lt;/JSopenParams&gt;&#10;        &lt;/link&gt;&#10;      &lt;/wizards&gt;&#10;    &lt;/config&gt;&#10;  &lt;/TCEforms&gt;&#10;&lt;/$field_name$&gt;" description="Text Input with Link Wizard" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="flexRoot" value="&lt;T3DataStructure&gt;&#10;  &lt;meta&gt;&#10;    &lt;langDisable&gt;1&lt;/langDisable&gt;&#10;  &lt;/meta&gt;&#10;  &lt;sheets&gt;&#10;    $END$&#10;  &lt;/sheets&gt;&#10;&lt;/T3DataStructure&gt;  " description="Generates Basic Flexform Container" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="flexSheet" value="&lt;$sheet_entity$&gt;&#10;  &lt;ROOT&gt;&#10;    &lt;TCEforms&gt;&#10;      &lt;sheetTitle&gt;$sheet_title$&lt;/sheetTitle&gt;&#10;    &lt;/TCEforms&gt;&#10;    &lt;type&gt;array&lt;/type&gt;&#10;    &lt;el&gt;&#10;      $END$&#10;    &lt;/el&gt;&#10;  &lt;/ROOT&gt;&#10;&lt;/$sheet_entity$&gt;" description="Generate a Flexform Sheet" toReformat="false" toShortenFQNames="true">
+    <variable name="sheet_entity" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="sheet_title" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="flexCheck" value="&lt;$field_name$&gt;&#10;  &lt;TCEforms&gt;&#10;    &lt;label&gt;$label$&lt;/label&gt;&#10;    &lt;config&gt;&#10;      &lt;type&gt;check&lt;/type&gt;&#10;    &lt;/config&gt;&#10;  &lt;/TCEforms&gt;&#10;&lt;/$field_name$&gt;" description="Generates a Flexform Checkbox" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="flexRte" value="&lt;$field_name$&gt;&#10;  &lt;TCEforms&gt;&#10;    &lt;label&gt;$label$&lt;/label&gt;&#10;    &lt;config type=&quot;array&quot;&gt;&#10;      &lt;type&gt;text&lt;/type&gt;&#10;      &lt;cols&gt;48&lt;/cols&gt;&#10;      &lt;rows&gt;5&lt;/rows&gt;&#10;    &lt;/config&gt;&#10;    &lt;defaultExtras&gt;richtext:rte_transform[mode=ts_css]&lt;/defaultExtras&gt;&#10;  &lt;/TCEforms&gt;&#10;&lt;/$field_name$&gt;" description="Generate an RTE field in Flexform" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="flexSelect" value="&lt;$field_name$&gt;&#10;  &lt;TCEforms&gt;&#10;    &lt;label&gt;$label$&lt;/label&gt;&#10;    &lt;config&gt;&#10;      &lt;type&gt;select&lt;/type&gt;&#10;      &lt;items type=&quot;array&quot;&gt;&#10;         $END$&#10;      &lt;/items&gt;&#10;      &lt;minitems&gt;$minitems$&lt;/minitems&gt;&#10;      &lt;maxitems&gt;$maxitems$&lt;/maxitems&gt;&#10;      &lt;size&gt;$size$&lt;/size&gt;&#10;    &lt;/config&gt;&#10;  &lt;/TCEforms&gt;&#10;&lt;/$field_name$&gt;" description="Generates a basic select field" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="minitems" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="maxitems" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="size" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="flexOption" value="&#9;&lt;numIndex index=&quot;1&quot; type=&quot;array&quot;&gt;&#10;&#9;&#9;&lt;numIndex index=&quot;0&quot;&gt;$option_name$&lt;/numIndex&gt;&#10;&#9;&#9;&lt;numIndex index=&quot;1&quot;&gt;$option_value$&lt;/numIndex&gt;&#10;&#9;&lt;/numIndex&gt;" description="Generate Select Option" toReformat="false" toShortenFQNames="true">
+    <variable name="option_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="option_value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="flexForeign" value="&lt;$field_name$&gt;&#10;  &lt;config&gt;&#10;    &lt;label&gt;$label$&lt;/label&gt;&#10;    &lt;type&gt;select&lt;/type&gt;&#10;    &lt;foreign_table&gt;$foreign_table$&lt;/foreign_table&gt;&#10;    &lt;foreign_table_where&gt;$where_statement$&lt;/foreign_table_where&gt;&#10;    &lt;size&gt;$size$&lt;/size&gt;&#10;    &lt;autoSizeMax&gt;$auto_size_max$&lt;/autoSizeMax&gt;&#10;    &lt;minitems&gt;$min_items$&lt;/minitems&gt;&#10;    &lt;maxitems&gt;$max_items$&lt;/maxitems&gt;&#10;  &lt;/config&gt;&#10;&lt;/$field_name$&gt;" description="Generates select field with options from foreign table" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="foreign_table" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="where_statement" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="size" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="auto_size_max" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="min_items" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="max_items" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="flexDam" value="&lt;$field_name$&gt;&#10;  &lt;TCEforms&gt;&#10;    &lt;exclude&gt;1&lt;/exclude&gt;&#10;    &lt;label&gt;$label$&lt;/label&gt;&#10;    &lt;config&gt;&#10;      &lt;type&gt;group&lt;/type&gt;&#10;      &lt;internal_type&gt;db&lt;/internal_type&gt;&#10;      &lt;allowed&gt;tx_dam&lt;/allowed&gt;&#10;      &lt;size&gt;1&lt;/size&gt;&#10;      &lt;maxitems&gt;1&lt;/maxitems&gt;&#10;      &lt;minitems&gt;0&lt;/minitems&gt;&#10;    &lt;/config&gt;&#10;  &lt;/TCEforms&gt;&#10;&lt;/$field_name$&gt;" description="Generate Group field for DAM records." toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="flexImage" value="&lt;$field_name$&gt;&#10;  &lt;TCEforms&gt;&#10;    &lt;label&gt;$label$&lt;/label&gt;&#10;    &lt;config&gt;&#10;      &lt;type&gt;group&lt;/type&gt;&#10;      &lt;internal_type&gt;file&lt;/internal_type&gt;&#10;      &lt;uploadfolder&gt;uploads/pics&lt;/uploadfolder&gt;&#10;      &lt;size&gt;3&lt;/size&gt;&#10;      &lt;allowed&gt;jpg,png,gif&lt;/allowed&gt;&#10;      &lt;max_size&gt;10240000&lt;/max_size&gt;&#10;      &lt;show_thumbs&gt;1&lt;/show_thumbs&gt;&#10;      &lt;minitems&gt;0&lt;/minitems&gt;&#10;      &lt;maxitems&gt;1&lt;/maxitems&gt;&#10;    &lt;/config&gt;&#10;  &lt;/TCEforms&gt;&#10;&lt;/$field_name$&gt;" description="Generate Image Upload Field" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="flexRepeat" value="&lt;$field_name$&gt;&#10;  &lt;type&gt;array&lt;/type&gt;&#10;  &lt;section&gt;1&lt;/section&gt;&#10;  &lt;el&gt;&#10;    &lt;data&gt;&#10;      &lt;title&gt;$label$&lt;/title&gt;&#10;      &lt;type&gt;array&lt;/type&gt;&#10;      &lt;el&gt;&#10;        &lt;!-- Elements go here, like this:  &#10;        &lt;title&gt;&#10;           &lt;TCEforms&gt;&#10;             &lt;label&gt;Text&lt;/label&gt;&#10;             &lt;config&gt;&#10;               &lt;type&gt;input&lt;/type&gt;&#10;             &lt;/config&gt;&#10;           &lt;/TCEforms&gt;&#10;         &lt;/title&gt;&#10;        &#10;        Access in Fluid, like this:&#10;        &#10;       &lt;f:for each=&quot;{settings.field_name}&quot; as=&quot;row&quot; iteration=&quot;count&quot;&gt;&#10;         The title: {row.data.title} &lt;br /&gt;&#10;        &lt;/f:for&gt;   &#10;        &#10;        --&gt;&#10; &#10;      &lt;/el&gt;&#10;    &lt;/data&gt;&#10;  &lt;/el&gt;&#10;&lt;/$field_name$&gt;     " description="Generate Repeating Element Container" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="flexText" value="&lt;$field_name$&gt;&#10;&#9;&lt;TCEforms&gt;&#10;&#9;&#9;&lt;label&gt;$label$&lt;/label&gt;&#10;&#9;&#9;&lt;config type=&quot;array&quot;&gt;&#10;&#9;&#9;&#9;&lt;type&gt;text&lt;/type&gt;&#10;&#9;&#9;&#9;&lt;cols&gt;48&lt;/cols&gt;&#10;&#9;&#9;&#9;&lt;rows&gt;5&lt;/rows&gt;&#10;&#9;&#9;&lt;/config&gt;&#10;&#9;&lt;/TCEforms&gt;&#10;&lt;/$field_name$&gt;" description="Basic flex form text field." toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>
+
