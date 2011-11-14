@@ -31,5 +31,74 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
+  <template name="tcaLink" value="'$column_name$' =&gt; array (&#9;&#9;&#10;&#9;'exclude' =&gt; 0,&#9;&#9;&#10;&#9;'label' =&gt; '$label$',&#9;&#9;&#10;&#9;'config' =&gt; array (&#10;&#9;&#9;'type'     =&gt; 'input',&#10;&#9;&#9;'size'     =&gt; '15',&#10;&#9;&#9;'max'      =&gt; '255',&#10;&#9;&#9;'checkbox' =&gt; '',&#10;&#9;&#9;'eval'     =&gt; 'trim',&#10;&#9;&#9;'wizards'  =&gt; array(&#10;&#9;&#9;&#9;'_PADDING' =&gt; 2,&#10;&#9;&#9;&#9;'link'     =&gt; array(&#10;&#9;&#9;&#9;&#9;'type'         =&gt; 'popup',&#10;&#9;&#9;&#9;&#9;'title'        =&gt; 'Link',&#10;&#9;&#9;&#9;&#9;'icon'         =&gt; 'link_popup.gif',&#10;&#9;&#9;&#9;&#9;'script'       =&gt; 'browse_links.php?mode=wizard',&#10;&#9;&#9;&#9;&#9;'JSopenParams' =&gt; 'height=300,width=500,status=0,menubar=0,scrollbars=1'&#10;&#9;&#9;&#9;)&#10;&#9;&#9;)&#10;&#9;)&#10;)," description="Generates a TCA Input field, with Link wizard" toReformat="false" toShortenFQNames="true">
+    <variable name="column_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="tcaText" value="'$column_name$' =&gt; array(&#10;&#9;'exclude' =&gt; 0,&#10;&#9;'label' =&gt; '$label$',&#10;&#9;'config' =&gt; array(&#10;&#9;&#9;'type' =&gt; 'text',&#10;&#9;&#9;'cols' =&gt; 40,&#10;&#9;&#9;'rows' =&gt; 15,&#10;&#9;&#9;'eval' =&gt; 'trim'&#10;&#9;),&#10;)," description="Generate a TCA text field." toReformat="false" toShortenFQNames="true">
+    <variable name="column_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="tcaDate" value="'$column_name$' =&gt; array(&#10;&#9;'exclude' =&gt; 1,&#10;&#9;'l10n_mode' =&gt; 'mergeIfNotBlank',&#10;&#9;'label' =&gt; '$label$',&#10;&#9;'config' =&gt; array(&#10;&#9;&#9;'type' =&gt; 'input',&#10;&#9;&#9;'size' =&gt; 13,&#10;&#9;&#9;'max' =&gt; 20,&#10;&#9;&#9;'eval' =&gt; 'datetime',&#10;&#9;&#9;'checkbox' =&gt; 0,&#10;&#9;&#9;'default' =&gt; 0,&#10;&#9;&#9;'range' =&gt; array(&#10;&#9;&#9;&#9;'lower' =&gt; mktime(0, 0, 0, date('m'), date('d'), date('Y'))&#10;&#9;&#9;),&#10;&#9;),&#10;)," description="Generate a TCA date field" toReformat="false" toShortenFQNames="true">
+    <variable name="column_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="tcaDamMM" value="'$column_name$' =&gt; Array (&#10;&#9;&quot;exclude&quot; =&gt; 0,&#10;&#9;'label' =&gt; '$label$',&#10;&#9;&quot;config&quot; =&gt; Array (&#10;&#9;&#9;'type' =&gt; 'group',&#10;&#9;&#9;'form_type' =&gt; 'user',&#10;&#9;&#9;'userFunc' =&gt; 'EXT:dam/lib/class.tx_dam_tcefunc.php:&amp;tx_dam_tceFunc-&gt;getSingleField_typeMedia',&#10;&#9;&#9;'internal_type' =&gt; 'db',&#10;&#9;&#9;'allowed' =&gt; 'tx_dam',&#10;&#9;&#9;'prepend_tname' =&gt; 1,&#10;&#9;&#9;'MM' =&gt; 'tx_dam_mm_ref',&#10;&#9;&#9;'MM_foreign_select' =&gt; 1,&#10;&#9;&#9;'MM_opposite_field' =&gt; 'file_usage',&#10;&#9;&#9;'MM_match_fields' =&gt; array(&#10;&#9;&#9;&#9;'ident' =&gt; '$ident$'&#10;&#9;&#9;),&#10;&#9;&#9;'allowed_types' =&gt; 'gif,jpg,jpeg,tif,tiff,bmp,pcx,tga,png,pdf,ai',&#10;&#9;&#9;'max_size' =&gt; 10000,&#10;&#9;&#9;'show_thumbs' =&gt; 1,&#10;&#9;&#9;'size' =&gt; 6,&#10;&#9;&#9;'maxitems' =&gt; 20,&#10;&#9;&#9;'minitems' =&gt; 0,&#10;&#9;&#9;'autoSizeMax' =&gt; 30&#10;&#9;)&#10;)" description="Generates a DAM relation field." toReformat="false" toShortenFQNames="true">
+    <variable name="column_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ident" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
 </templateSet>
 
