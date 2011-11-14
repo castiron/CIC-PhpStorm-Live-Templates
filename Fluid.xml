@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="Fluid">
-  <template name="f:for" value="&lt;f:for each=&quot;{$variable_name$} as=&quot;$as$&quot;&gt;&#10;   $END$&#10;&lt;/f:for&gt;" description="Generate fluid for each snippet" toReformat="false" toShortenFQNames="true">
+  <template name="f:for" value="&lt;f:for each=&quot;{$variable_name$}&quot; as=&quot;$as$&quot;&gt;&#10;   $END$&#10;&lt;/f:for&gt;" description="Generate fluid for each snippet" toReformat="false" toShortenFQNames="true">
     <variable name="variable_name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="as" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -23,6 +23,86 @@
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
       <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="f:image" value="&lt;f:image src=&quot;$image_src$&quot; alt=&quot;$alt_text$&quot; /&gt;" description="Generates a fluid image." toReformat="false" toShortenFQNames="true">
+    <variable name="image_src" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="alt_text" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="f:if" value="&lt;f:if condition=&quot;{$condition$}&quot;&gt;&#10;&#9;$END$&#10;&lt;/f:if&gt;" description="Fluid if viewhelper" toReformat="false" toShortenFQNames="true">
+    <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="f:translate" value="&lt;f:translate key=&quot;LLL:EXT:$local_lang_file$:{$key$}&quot; /&gt;" description="Generated Fluid translate tag." toReformat="false" toShortenFQNames="true">
+    <variable name="local_lang_file" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="f:formatHtml" value="&lt;f:format.html&gt;$END$&lt;/f:format.html&gt;" description="Format HTML" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="f:formatNl2br" value="&lt;f:format.nl2br&gt;$END$&lt;/f:format.nl2br&gt;" description="wrapper for PHP function nl2br" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
       <option name="XML" value="true" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
