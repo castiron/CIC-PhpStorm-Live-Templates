@@ -7,7 +7,8 @@ This repository is a little funky since PHP Storm's file structure for Live Temp
 Here's what you're going to want to do:
 
 * `cd ~/Library/Preferences/WebIDE10/templates`
-* Now you need to exclude any existing Live Templates from being included in your repository. In my templates directory there was a file for 'Zen HTML.' That template isn't maintained in this repository, so I exclude it, by adding the file path to a .gitignore, Like this `echo "Zen HTML.xml" > .gitignore`
+* Now you need to exclude any existing Live Templates from being included in your repository. In my templates directory there was a file for 'Zen HTML.' That template isn't maintained in this repository so I exclude it, by adding the file path to a .gitignore, like this:
+`echo "Zen HTML.xml" > .gitignore`
 * Now initialize the a repo: `git init`
 * Add the remote repo: `git remote add origin git@github.com:castiron/CIC-PhpStorm-Live-Templates.git`
 * Pull everything down: `git pull origin master`
