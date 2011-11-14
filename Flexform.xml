@@ -138,7 +138,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="flexForeign" value="&lt;$field_name$&gt;&#10;  &lt;config&gt;&#10;    &lt;label&gt;$label$&lt;/label&gt;&#10;    &lt;type&gt;select&lt;/type&gt;&#10;    &lt;foreign_table&gt;$foreign_table$&lt;/foreign_table&gt;&#10;    &lt;foreign_table_where&gt;$where_statement$&lt;/foreign_table_where&gt;&#10;    &lt;size&gt;$size$&lt;/size&gt;&#10;    &lt;autoSizeMax&gt;$auto_size_max$&lt;/autoSizeMax&gt;&#10;    &lt;minitems&gt;$min_items$&lt;/minitems&gt;&#10;    &lt;maxitems&gt;$max_items$&lt;/maxitems&gt;&#10;  &lt;/config&gt;&#10;&lt;/$field_name$&gt;" description="Generates select field with options from foreign table" toReformat="false" toShortenFQNames="true">
+  <template name="flexForeign" value="&lt;$field_name$&gt;&#10;&#9;&lt;TCEforms&gt;&#10;&#9;&#9;&lt;label&gt;$label$&lt;/label&gt;&#10;  &lt;config&gt;&#10;    &lt;type&gt;select&lt;/type&gt;&#10;    &lt;foreign_table&gt;$foreign_table$&lt;/foreign_table&gt;&#10;    &lt;foreign_table_where&gt;$where_statement$&lt;/foreign_table_where&gt;&#10;    &lt;size&gt;$size$&lt;/size&gt;&#10;    &lt;autoSizeMax&gt;$auto_size_max$&lt;/autoSizeMax&gt;&#10;    &lt;minitems&gt;$min_items$&lt;/minitems&gt;&#10;    &lt;maxitems&gt;$max_items$&lt;/maxitems&gt;&#10;  &lt;/config&gt;&#10;&#9;&lt;/TCEforms&gt;&#10;&lt;/$field_name$&gt;" description="Generates select field with options from foreign table" toReformat="false" toShortenFQNames="true">
     <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="foreign_table" expression="" defaultValue="" alwaysStopAt="true" />
