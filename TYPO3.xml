@@ -100,5 +100,23 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
+  <template name="inject" value="/**&#10; * @var $className$&#10; */&#10;protected $$$property$;&#10;&#10;/**&#10; * inject the $property$&#10; *&#10; * @param $className$ $property$&#10; * @return void&#10; */&#10;public function inject$upperCaseProperty$($className$ $$$property$) {&#10;&#9;$this-&gt;$property$ = $$$property$;&#10;}" description="Generate an injected Extbase property" toReformat="false" toShortenFQNames="true">
+    <variable name="className" expression="" defaultValue="className" alwaysStopAt="true" />
+    <variable name="property" expression="" defaultValue="propertyName" alwaysStopAt="true" />
+    <variable name="upperCaseProperty" expression="capitalize(property)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
 </templateSet>
 
