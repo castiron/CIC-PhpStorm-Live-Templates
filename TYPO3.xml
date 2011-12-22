@@ -16,21 +16,6 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="banana" value="echo 'banana';" description="Insert a banana." toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="CSS" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
-      <option name="SQL" value="false" />
-      <option name="PHP" value="true" />
-      <option name="HAML" value="false" />
-      <option name="OTHER" value="false" />
-    </context>
-  </template>
   <template name="tcaLink" value="'$column_name$' =&gt; array (&#9;&#9;&#10;&#9;'exclude' =&gt; 0,&#9;&#9;&#10;&#9;'label' =&gt; '$label$',&#9;&#9;&#10;&#9;'config' =&gt; array (&#10;&#9;&#9;'type'     =&gt; 'input',&#10;&#9;&#9;'size'     =&gt; '15',&#10;&#9;&#9;'max'      =&gt; '255',&#10;&#9;&#9;'checkbox' =&gt; '',&#10;&#9;&#9;'eval'     =&gt; 'trim',&#10;&#9;&#9;'wizards'  =&gt; array(&#10;&#9;&#9;&#9;'_PADDING' =&gt; 2,&#10;&#9;&#9;&#9;'link'     =&gt; array(&#10;&#9;&#9;&#9;&#9;'type'         =&gt; 'popup',&#10;&#9;&#9;&#9;&#9;'title'        =&gt; 'Link',&#10;&#9;&#9;&#9;&#9;'icon'         =&gt; 'link_popup.gif',&#10;&#9;&#9;&#9;&#9;'script'       =&gt; 'browse_links.php?mode=wizard',&#10;&#9;&#9;&#9;&#9;'JSopenParams' =&gt; 'height=300,width=500,status=0,menubar=0,scrollbars=1'&#10;&#9;&#9;&#9;)&#10;&#9;&#9;)&#10;&#9;)&#10;)," description="Generates a TCA Input field, with Link wizard" toReformat="false" toShortenFQNames="true">
     <variable name="column_name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
