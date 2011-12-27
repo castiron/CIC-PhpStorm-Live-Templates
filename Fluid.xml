@@ -235,5 +235,57 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
+  <template name="f:form" value="&lt;f:form arguments=&quot;$arguments$&quot; action=&quot;$action$&quot; controller=&quot;$controller$&quot; method=&quot;post&quot; name=&quot;$name$&quot;&gt;&#9;&#10;&#9;$END$&#10;&lt;/f:form&gt;" description="Form view helper" toReformat="false" toShortenFQNames="true">
+    <variable name="arguments" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="action" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="controller" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="f:checkbox" value="&lt;form.checkbox name=&quot;$name$&quot; value=&quot;$value$&quot; /&gt;&#10;$END$" description="Generates a form checkbox" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="f:errors" value="&lt;f:form.errors for=&quot;$property$&quot;&gt;&#10;&#9;{error.propertyName} / {error.code}:&#10;&#9;&lt;f:for each=&quot;{error.errors}&quot; as=&quot;errorDetail&quot;&gt;&#10;&#9;&#9;{errorDetail.message}&#10;&#9;&lt;/f:for&gt;&#10;&lt;/f:form.errors&gt;" description="Displays form errors" toReformat="false" toShortenFQNames="true">
+    <variable name="property" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
 </templateSet>
 
