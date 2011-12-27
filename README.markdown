@@ -17,10 +17,10 @@ Here's what you're going to want to do:
 
 Currently there are three Live Templates in this bundle:
 
-- Flexform
-- Fluid
-- FluidInline
-- TYPO3
+* `Flexform`
+* `Fluid`
+* `FluidInline`
+* `TYPO3`
 
 Here's what's currently included in each template. 
 
