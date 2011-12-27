@@ -113,5 +113,88 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
+  <template name="f:ns" value="{namespace $ns$=$class$}" description="Generates a Fluid namespace declaration" toReformat="false" toShortenFQNames="true">
+    <variable name="ns" expression="" defaultValue="myns" alwaysStopAt="true" />
+    <variable name="class" expression="" defaultValue="Tx_Extkey_ViewHelpers" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="f:alias" value="&lt;f:alias map=&quot;{$variableName$: $variableValue$}&quot;&gt;{$variableName$}&lt;/f:alias&gt;" description="Generates an alias viewhelper tag" toReformat="true" toShortenFQNames="true">
+    <variable name="variableName" expression="" defaultValue="myVariable" alwaysStopAt="true" />
+    <variable name="variableValue" expression="" defaultValue="myObject.property" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="f:cObj" value="&lt;f:cObject typoscriptObjectPath=&quot;$tsObjectPath$&quot; data=&quot;{$data$}&quot; currentValueKey=&quot;{$currentValueKey$}&quot; /&gt;" description="Generates a cObject viewhelper tag" toReformat="false" toShortenFQNames="true">
+    <variable name="tsObjectPath" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="data" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="currentValueKey" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="f:debug" value="&lt;f:debug&gt;{$object$}&lt;/f:debug&gt;" description="wrapper for TYPO3 debug function" toReformat="false" toShortenFQNames="true">
+    <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="f:flash" value="&lt;f:flashMessages renderMode=&quot;div&quot; /&gt;" description="Renders the flash messages" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
 </templateSet>
 
