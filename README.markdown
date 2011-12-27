@@ -19,6 +19,7 @@ Currently there are three Live Templates in this bundle:
 
 - Flexform
 - Fluid
+- FluidInline
 - TYPO3
 
 Here's what's currently included in each template. 
@@ -41,16 +42,46 @@ Here's what's currently included in each template.
 
 ### Fluid
 
-* `f:for`
-* `f:formatHtml`
-* `f:formatNl2br`
-* `f:if`
-* `f:image`
-* `f:linkPage`
-* `f:translate`
+* `f:alias` Generates an alias viewhelper tag 
+* `f:checkbox` Generates a form checkbox  
+* `f:cObj` Generates a cObject viewhelper tag 
+* `f:crop` Generates a crop format viewhelper tag 
+* `f:currency` Generates a currency format viewhelper tag 
+* `f:date` Generates a date format viewhelper tag 
+* `f:debug` Generates a debug viewhelper tag 
+* `f:errors` Generates a for viewhelper iterating through form errors for a given property 
+* `f:flash` Generates a flash  viewhelper tag
+* `f:for` Generates fluid for each snippet 
+* `f:form` Generates a form viewhelper tag 
+* `f:gfor` Generates a grouped for snippet 
+* `f:hidden` Generates a hidden field viewhelper tag 
+* `f:html` Generates a HTML format viewhelper tag 
+* `f:if` Generates an if snippet 
+* `f:ifelse` Generates an if snippet around then and else viewhelper tags 
+* `f:image` Generates an image viewhelper tag 
+* `f:linkEmail` Generates an email link viewhelper tag 
+* `f:linkExteranl` Generates an external link viewhelper tag 
+* `f:linkPage` Generates a page link viewhelper tag 
+* `f:nl2br` Generates a nl2br viewhelper tag 
+* `f:ns` Generates a Fluid namespace declaration 
+* `f:number` Generates a number format viewhelper tag 
+* `f:password` Generates a password form field viewhelper tag 
+* `f:radio` Generates a radio button form field viewhelper tag 
+* `f:select` Generates a select form field viewhelper tag 
+* `f:submit` Generates a submit form field viewhelper tag 
+* `f:textarea` Generates a textarea form field viewhelper tag 
+* `f:textfield` Generates a text form field viewhelper tag 
+* `f:translate` Generates a translate viewhelper tag 
+* `f:upload` Generates an upload form field viewhelper tag 
+
+### FluidInline
+
+* `if:if` Generates an inline fluid if snippet
+* `if:translate` Generates an inline translate viewhelper tag
 
 ### TYPO3
 
+* `inject` Generates an injectable extBase property and a corresponding inject method
 * `t3debug` Prints a TYPO3 debug statement, although, you really should be using xdebug if at all possible!
 * `tcaDamMM` Creates a TCA column configured for the DAM.
 * `tcaDate` Creates a TCA date column.
