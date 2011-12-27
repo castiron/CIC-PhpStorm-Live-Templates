@@ -196,5 +196,26 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
+  <template name="f:gfor" value="&lt;f:groupedFor each=&quot;{$each$}&quot; as=&quot;$var$&quot; groupBy=&quot;$groupByProperty$&quot; groupKey=&quot;$groupKey$&quot;&gt;&#10;&#9;{$groupKey$}&#10;&#9;&lt;f:for each=&quot;$var$&quot; as=&quot;$subVar$&quot; key=&quot;$key$&gt;&#10;&#9;&lt;/f:for&gt;&#10;&lt;/f:groupedFor&gt;" description="Grouped for view helper" toReformat="false" toShortenFQNames="true">
+    <variable name="each" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="groupByProperty" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="groupKey" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="subVar" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
 </templateSet>
 
