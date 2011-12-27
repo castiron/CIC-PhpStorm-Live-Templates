@@ -17,7 +17,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:linkPage" value="&lt;f:link.page pageUid=&quot;$page_uid$&quot;&gt;$END$&lt;/f:link.page&gt;" description="Fluid page link" toReformat="false" toShortenFQNames="true">
+  <template name="f:linkPage" value="&lt;f:link.page pageUid=&quot;$page_uid$&quot;&gt;$END$&lt;/f:link.page&gt;" description="Generates a page link viewhelper tag" toReformat="false" toShortenFQNames="true">
     <variable name="page_uid" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
@@ -33,7 +33,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:image" value="&lt;f:image src=&quot;$image_src$&quot; alt=&quot;$alt_text$&quot; /&gt;" description="Generates a fluid image." toReformat="false" toShortenFQNames="true">
+  <template name="f:image" value="&lt;f:image src=&quot;$image_src$&quot; alt=&quot;$alt_text$&quot; /&gt;" description="Generates an image viewhelper tag" toReformat="false" toShortenFQNames="true">
     <variable name="image_src" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="alt_text" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -50,7 +50,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:if" value="&lt;f:if condition=&quot;{$condition$}&quot;&gt;&#10;&#9;$END$&#10;&lt;/f:if&gt;" description="Fluid if viewhelper" toReformat="false" toShortenFQNames="true">
+  <template name="f:if" value="&lt;f:if condition=&quot;{$condition$}&quot;&gt;&#10;&#9;$END$&#10;&lt;/f:if&gt;" description="Generates an if snippet" toReformat="false" toShortenFQNames="true">
     <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
@@ -66,7 +66,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:translate" value="&lt;f:translate key=&quot;LLL:EXT:$local_lang_file$:{$key$}&quot; /&gt;" description="Generated Fluid translate tag." toReformat="false" toShortenFQNames="true">
+  <template name="f:translate" value="&lt;f:translate key=&quot;LLL:EXT:$local_lang_file$:{$key$}&quot; /&gt;" description="Generates a translate viewhelper tag" toReformat="false" toShortenFQNames="true">
     <variable name="local_lang_file" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -83,7 +83,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:html" value="&lt;f:format.html&gt;$END$&lt;/f:format.html&gt;" description="Format HTML" toReformat="false" toShortenFQNames="true">
+  <template name="f:html" value="&lt;f:format.html&gt;$END$&lt;/f:format.html&gt;" description="Generates a HTML format viewhelper tag" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -98,7 +98,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:nl2br" value="&lt;f:format.nl2br&gt;$END$&lt;/f:format.nl2br&gt;" description="wrapper for PHP function nl2br" toReformat="false" toShortenFQNames="true">
+  <template name="f:nl2br" value="&lt;f:format.nl2br&gt;$END$&lt;/f:format.nl2br&gt;" description="Generates a nl2br viewhelper tag" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="true" />
@@ -165,7 +165,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:debug" value="&lt;f:debug&gt;{$object$}&lt;/f:debug&gt;&#10;$END$" description="wrapper for TYPO3 debug function" toReformat="false" toShortenFQNames="true">
+  <template name="f:debug" value="&lt;f:debug&gt;{$object$}&lt;/f:debug&gt;&#10;$END$" description="Generates a debug viewhelper tag" toReformat="false" toShortenFQNames="true">
     <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
@@ -181,7 +181,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:flash" value="&lt;f:flashMessages renderMode=&quot;div&quot; /&gt;&#10;$END$" description="Renders the flash messages" toReformat="false" toShortenFQNames="true">
+  <template name="f:flash" value="&lt;f:flashMessages renderMode=&quot;div&quot; /&gt;&#10;$END$" description="Generates a flash viewhelper tag" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
@@ -196,7 +196,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:gfor" value="&lt;f:groupedFor each=&quot;{$each$}&quot; as=&quot;$var$&quot; groupBy=&quot;$groupByProperty$&quot; groupKey=&quot;$groupKey$&quot;&gt;&#10;&#9;{$groupKey$}&#10;&#9;&lt;f:for each=&quot;$var$&quot; as=&quot;$subVar$&quot; key=&quot;$key$&quot;&gt;&#10;&#9;&lt;/f:for&gt;&#10;&lt;/f:groupedFor&gt;" description="Grouped for view helper" toReformat="false" toShortenFQNames="true">
+  <template name="f:gfor" value="&lt;f:groupedFor each=&quot;{$each$}&quot; as=&quot;$var$&quot; groupBy=&quot;$groupByProperty$&quot; groupKey=&quot;$groupKey$&quot;&gt;&#10;&#9;{$groupKey$}&#10;&#9;&lt;f:for each=&quot;$var$&quot; as=&quot;$subVar$&quot; key=&quot;$key$&quot;&gt;&#10;&#9;&lt;/f:for&gt;&#10;&lt;/f:groupedFor&gt;" description="Generates a grouped for snippet" toReformat="false" toShortenFQNames="true">
     <variable name="each" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="groupByProperty" expression="" defaultValue="" alwaysStopAt="true" />
@@ -217,7 +217,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:ifelse" value="&lt;f:if condition=&quot;{$condition$}&quot;&gt;&#10;&#9;&lt;f:then&gt;&#10;&#9;$then$&#10;&#9;&lt;/f:then&gt;&#10;&#9;&lt;f:else&gt;&#10;&#9;$else$&#10;&#9;&lt;/f:else&gt;&#10;&lt;/f:if&gt;&#10;$END$" description="Fliuid if-then-else viewhelper" toReformat="false" toShortenFQNames="true">
+  <template name="f:ifelse" value="&lt;f:if condition=&quot;{$condition$}&quot;&gt;&#10;&#9;&lt;f:then&gt;&#10;&#9;$then$&#10;&#9;&lt;/f:then&gt;&#10;&#9;&lt;f:else&gt;&#10;&#9;$else$&#10;&#9;&lt;/f:else&gt;&#10;&lt;/f:if&gt;&#10;$END$" description="Generates an if snippet around then and else viewhelper tags" toReformat="false" toShortenFQNames="true">
     <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="then" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="else" expression="" defaultValue="" alwaysStopAt="true" />
@@ -235,7 +235,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:form" value="&lt;f:form enctype=&quot;multipart/form-data&quot; arguments=&quot;$arguments$&quot; action=&quot;$action$&quot; controller=&quot;$controller$&quot; method=&quot;post&quot; name=&quot;$name$&quot;&gt;&#9;&#10;&#9;$END$&#10;&lt;/f:form&gt;" description="Form view helper" toReformat="false" toShortenFQNames="true">
+  <template name="f:form" value="&lt;f:form enctype=&quot;multipart/form-data&quot; arguments=&quot;$arguments$&quot; action=&quot;$action$&quot; controller=&quot;$controller$&quot; method=&quot;post&quot; name=&quot;$name$&quot;&gt;&#9;&#10;&#9;$END$&#10;&lt;/f:form&gt;" description="Generates a form viewhelper tag" toReformat="false" toShortenFQNames="true">
     <variable name="arguments" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="action" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="controller" expression="" defaultValue="" alwaysStopAt="true" />
@@ -271,7 +271,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:errors" value="&lt;f:form.errors for=&quot;$property$&quot;&gt;&#10;&#9;{error.propertyName} / {error.code}:&#10;&#9;&lt;f:for each=&quot;{error.errors}&quot; as=&quot;errorDetail&quot;&gt;&#10;&#9;&#9;{errorDetail.message}&#10;&#9;&lt;/f:for&gt;&#10;&lt;/f:form.errors&gt;&#10;$END$" description="Displays form errors" toReformat="false" toShortenFQNames="true">
+  <template name="f:errors" value="&lt;f:form.errors for=&quot;$property$&quot;&gt;&#10;&#9;{error.propertyName} / {error.code}:&#10;&#9;&lt;f:for each=&quot;{error.errors}&quot; as=&quot;errorDetail&quot;&gt;&#10;&#9;&#9;{errorDetail.message}&#10;&#9;&lt;/f:for&gt;&#10;&lt;/f:form.errors&gt;&#10;$END$" description="Generates a for viewhelper iterating through form errors for a given property" toReformat="false" toShortenFQNames="true">
     <variable name="property" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
@@ -287,7 +287,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:hidden" value="&lt;f:form.hidden name=&quot;$name$&quot; value=&quot;$value$&quot; /&gt;&#10;$END$" description="Hidden form input" toReformat="false" toShortenFQNames="true">
+  <template name="f:hidden" value="&lt;f:form.hidden name=&quot;$name$&quot; value=&quot;$value$&quot; /&gt;&#10;$END$" description="Generates a hidden field viewhelper tag" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -304,7 +304,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:password" value="&lt;f:form.password name=&quot;$name$&quot; /&gt;&#10;$END$" description="Password field" toReformat="false" toShortenFQNames="true">
+  <template name="f:password" value="&lt;f:form.password name=&quot;$name$&quot; /&gt;&#10;$END$" description="Generates a password form field viewhelper tag" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
@@ -320,7 +320,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:radio" value="&lt;f:form.radio name=&quot;$name$&quot; value=&quot;$value$&quot; /&gt;&#10;$END$" description="Radio input" toReformat="false" toShortenFQNames="true">
+  <template name="f:radio" value="&lt;f:form.radio name=&quot;$name$&quot; value=&quot;$value$&quot; /&gt;&#10;$END$" description="Generates a radio button form field viewhelper tag" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -337,7 +337,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:select" value="&lt;f:form.select name=&quot;$name$&quot; options=&quot;{$array$}&quot; optionValueField=&quot;id&quot; optionLabelField=&quot;$label$&quot; /&gt;" description="Generate a select input" toReformat="false" toShortenFQNames="true">
+  <template name="f:select" value="&lt;f:form.select name=&quot;$name$&quot; options=&quot;{$array$}&quot; optionValueField=&quot;id&quot; optionLabelField=&quot;$label$&quot; /&gt;" description="Generates a select form field viewhelper tag" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="array" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
@@ -355,7 +355,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:submit" value="&lt;f:form.submit value=&quot;$value$&quot; /&gt;" description="Generates a submit button" toReformat="false" toShortenFQNames="true">
+  <template name="f:submit" value="&lt;f:form.submit value=&quot;$value$&quot; /&gt;" description="Generates a submit form field viewhelper tag" toReformat="false" toShortenFQNames="true">
     <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
@@ -371,7 +371,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:textarea" value="&lt;f:form.textarea name=&quot;$name$&quot; value=&quot;$value&quot; rows=&quot;$rows$&quot; cols=&quot;$cols$&quot; /&gt;" description="Generates a textarea" toReformat="false" toShortenFQNames="true">
+  <template name="f:textarea" value="&lt;f:form.textarea name=&quot;$name$&quot; value=&quot;$value&quot; rows=&quot;$rows$&quot; cols=&quot;$cols$&quot; /&gt;" description="Generates a textarea form field viewhelper tag" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="rows" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="cols" expression="" defaultValue="" alwaysStopAt="true" />
@@ -389,7 +389,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:textfield" value="&lt;f:form.textfield name=&quot;$name$&quot; value=&quot;$value$&quot; /&gt;&#10;$END$" description="Generates a textfield" toReformat="false" toShortenFQNames="true">
+  <template name="f:textfield" value="&lt;f:form.textfield name=&quot;$name$&quot; value=&quot;$value$&quot; /&gt;&#10;$END$" description="Generates a text form field viewhelper tag" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -406,7 +406,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:upload" value="&lt;f:form.upload name=&quot;$name$&quot; /&gt;" description="Upload field" toReformat="false" toShortenFQNames="true">
+  <template name="f:upload" value="&lt;f:form.upload name=&quot;$name$&quot; /&gt;" description="Generates an upload form field viewhelper tag" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
@@ -422,7 +422,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:crop" value="&lt;f:format.crop maxCharacters=&quot;$max$&quot; append=&quot;$append$&quot;&gt;$END$&lt;/f:format.crop&gt;" description="Crops text" toReformat="false" toShortenFQNames="true">
+  <template name="f:crop" value="&lt;f:format.crop maxCharacters=&quot;$max$&quot; append=&quot;$append$&quot;&gt;$END$&lt;/f:format.crop&gt;" description="Generates a crop format viewhelper tag" toReformat="false" toShortenFQNames="true">
     <variable name="max" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="append" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -439,7 +439,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:currency" value="&lt;f:format.currency currencySign=&quot;$sign$&quot; decimalSeparator=&quot;.&quot; thousandsSeparator=&quot;,&quot;&gt;$END$&lt;/f:format.currency&gt;" description="Displays currency conversions" toReformat="false" toShortenFQNames="true">
+  <template name="f:currency" value="&lt;f:format.currency currencySign=&quot;$sign$&quot; decimalSeparator=&quot;.&quot; thousandsSeparator=&quot;,&quot;&gt;$END$&lt;/f:format.currency&gt;" description="Generates a currency format viewhelper tag" toReformat="false" toShortenFQNames="true">
     <variable name="sign" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
@@ -455,7 +455,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:date" value="&lt;f:format.date format=&quot;$format$&quot;&gt;{$dateObj$}&lt;/f:format.date&gt;" description="Displays dates" toReformat="false" toShortenFQNames="true">
+  <template name="f:date" value="&lt;f:format.date format=&quot;$format$&quot;&gt;{$dateObj$}&lt;/f:format.date&gt;" description="Generates a date format viewhelper tag" toReformat="false" toShortenFQNames="true">
     <variable name="format" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="dateObj" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -472,7 +472,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:number" value="&lt;f:format.number decimals=&quot;$decimals$&quot; decimalsSeparator=&quot;.&quot; thousandsSeparator=&quot;,&quot;&gt;$END$&lt;/f:format.number&gt;" description="Formats a number" toReformat="false" toShortenFQNames="true">
+  <template name="f:number" value="&lt;f:format.number decimals=&quot;$decimals$&quot; decimalsSeparator=&quot;.&quot; thousandsSeparator=&quot;,&quot;&gt;$END$&lt;/f:format.number&gt;" description="Generates a number format viewhelper tag" toReformat="false" toShortenFQNames="true">
     <variable name="decimals" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
@@ -488,7 +488,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:linkEmail" value="&lt;f:link.email email=&quot;$email$&quot;&gt;$END$&lt;/f:link.email&gt;" description="generates an email link" toReformat="false" toShortenFQNames="true">
+  <template name="f:linkEmail" value="&lt;f:link.email email=&quot;$email$&quot;&gt;$END$&lt;/f:link.email&gt;" description="Generates an email link viewhelper tag" toReformat="false" toShortenFQNames="true">
     <variable name="email" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
@@ -504,7 +504,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:linkExternal" value="&lt;f:link.external uri=&quot;$uri$&quot; defaultScheme=&quot;http&quot;&gt;$END$&lt;/f:link.external&gt;" description="generates an external link" toReformat="false" toShortenFQNames="true">
+  <template name="f:linkExternal" value="&lt;f:link.external uri=&quot;$uri$&quot; defaultScheme=&quot;http&quot;&gt;$END$&lt;/f:link.external&gt;" description="Generates an external link viewhelper tag" toReformat="false" toShortenFQNames="true">
     <variable name="uri" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
