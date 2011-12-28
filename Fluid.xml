@@ -83,7 +83,8 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="f:html" value="&lt;f:format.html&gt;$END$&lt;/f:format.html&gt;" description="Generates a HTML format viewhelper tag" toReformat="false" toShortenFQNames="true">
+  <template name="f:html" value="&lt;f:format.html parseFuncTSPath=&quot;$PATH$&quot; &gt;$END$&lt;/f:format.html&gt;" description="Generates a HTML format viewhelper tag" toReformat="false" toShortenFQNames="true">
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="HTML" value="true" />
