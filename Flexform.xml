@@ -121,7 +121,8 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="flexOption" value="&#9;&lt;numIndex index=&quot;1&quot; type=&quot;array&quot;&gt;&#10;&#9;&#9;&lt;numIndex index=&quot;0&quot;&gt;$option_name$&lt;/numIndex&gt;&#10;&#9;&#9;&lt;numIndex index=&quot;1&quot;&gt;$option_value$&lt;/numIndex&gt;&#10;&#9;&lt;/numIndex&gt;" description="Generate Select Option" toReformat="false" toShortenFQNames="true">
+  <template name="flexOption" value="&#9;&lt;numIndex index=&quot;$index$&quot; type=&quot;array&quot;&gt;&#10;&#9;&#9;&lt;numIndex index=&quot;0&quot;&gt;$option_name$&lt;/numIndex&gt;&#10;&#9;&#9;&lt;numIndex index=&quot;1&quot;&gt;$option_value$&lt;/numIndex&gt;&#10;&#9;&lt;/numIndex&gt;" description="Generate Select Option" toReformat="false" toShortenFQNames="true">
+    <variable name="index" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="option_name" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="option_value" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
