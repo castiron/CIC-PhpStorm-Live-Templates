@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="TYPO3">
-  <template name="t3debug" value="t3lib_utility_Debug::debug($variable$);" description="TYPO3 Debug" toReformat="false" toShortenFQNames="true">
+  <template name="t3debug" value="t3lib_utility_Debug::debug($variable$,__FILE__ . &quot; &quot; . __LINE__);" description="TYPO3 Debug" toReformat="false" toShortenFQNames="true">
     <variable name="variable" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
