@@ -1,8 +1,8 @@
-# TYPO3 Flavored Live Templates for PHP Storm
+# TYPO3 Flavored Live Templates for PHPStorm IDE
 
 ## Getting started
 
-This repository is a little funky since PHP Storm's file structure for Live Templates isn't the easiest thing to integrate with a VCS. Nonetheless, the process for getting set-up isn't too bad. 
+This repository is a little funky since PHPStorm's file structure for Live Templates isn't the easiest thing to integrate with a VCS. Nonetheless, the process for getting set-up isn't too bad. 
 
 Here's what you're going to want to do:
 
