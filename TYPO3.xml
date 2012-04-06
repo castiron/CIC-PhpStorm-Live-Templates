@@ -103,5 +103,80 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
+  <template name="sqlSelect" value="$$select = '$select$';&#10;$$table = '$table$';&#10;$$where = '$where$';&#10;$$groupBy = '$groupBy$';&#10;$$orderBy = '$orderBy$';&#10;$$limit = '$limit$';&#10;&#10;$$result = $$GLOBALS['TYPO3_DB']-&gt;exec_SELECTquery($$select,$$table,$$where,$$groupBy,$$orderBy,$$limit);&#10;&#10;while ($$row = $$GLOBALS['TYPO3_DB']-&gt;sql_fetch_assoc($$result)) {&#10;&#9;$$$values$[] = $$row;&#10;}" description="Generate code needed for a direct sql select query" toReformat="false" toShortenFQNames="true">
+    <variable name="select" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="table" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="where" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="groupBy" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="orderBy" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="limit" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="values" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="sqlInsert" value="$$dataArray['$dataKey$'] = '$dataValue$';&#10;$$tableName = '$tableName$';&#10;$result = $$GLOBALS['TYPO3_DB']-&gt;exec_INSERTquery($$tableName,$$dataArray);" description="Generate code needed for a direct sql insert query" toReformat="false" toShortenFQNames="true">
+    <variable name="dataKey" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="dataValue" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="tableName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="sqlUpdate" value="$$dataArray['$dataKey$'] = '$dataValues$';&#10;$$tableName = '$tableName$';&#10;$$where = '$where$';&#10;$result = $$GLOBALS['TYPO3_DB']-&gt;exec_UPDATEquery($$tableName,$$where,$$dataArray);" description="Generate code needed for a direct sql update query" toReformat="false" toShortenFQNames="true">
+    <variable name="dataKey" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="dataValues" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="tableName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="where" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="ipmatch" value="if(t3lib_div::getIndpEnv('REMOTE_ADDR')=='`curl -s http://specialbody.com/ip.php`') {&#10;   $body$&#10;}" description="Checks if IP addresses match" toReformat="false" toShortenFQNames="true">
+    <variable name="body" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
 </templateSet>
 

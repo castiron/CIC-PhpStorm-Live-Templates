@@ -87,6 +87,10 @@ Here's what's currently included in each template.
 * `tcaDate` Creates a TCA date column.
 * `tcaLink` Creates a TCA input field, with link wizard.
 * `tcaText` Generates a TCA text field.
+* `sqlSelect` Generates code needed for a direct SQL select query.
+* `sqlInsert` Generates code needed for a direct SQL insert query.
+* `sqlUpdate` Generates code needed for a direct SQL update query.
+* `ipmatch` Checks if REMOTE_ADDR == the IP from specialbody.com.
 
 ## Contributing
 
