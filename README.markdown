@@ -83,6 +83,7 @@ Here's what's currently included in each template.
 
 * `inject` Generates an injectable extBase property and a corresponding inject method
 * `t3debug` Prints a TYPO3 debug statement, although, you really should be using xdebug if at all possible!
+* `ebdb` Prints an ExtBase var dump message, which is useful for debugging recursive, heavily nested  objects
 * `tcaDamMM` Creates a TCA column configured for the DAM.
 * `tcaDate` Creates a TCA date column.
 * `tcaLink` Creates a TCA input field, with link wizard.
