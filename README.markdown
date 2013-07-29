@@ -1,10 +1,10 @@
 # TYPO3 Flavored Live Templates for PHPStorm IDE
 
-## Getting started
+## Notes
 
-This repository is a little funky since PHPStorm's file structure for Live Templates isn't the easiest thing to integrate with a VCS. Nonetheless, the process for getting set-up isn't too bad. 
+We ignore everything in the repo except for the files we care about (see .gitignore).  That way you can install rando unrelated templates if you need to, and they won't be tracked here.  The major downside to this is that you will not be able to track your other live templates in a git repo.  If you need to do that, you're better off forking to your own repo, and keeping this one as an upstream.
 
-Here's what you're going to want to do:
+## Getting Started
 
 * `cd ~/Library/Preferences/WebIde60/templates`
 * Now initialize the a repo: `git init`
@@ -37,6 +37,7 @@ Here's what's currently included in each template.
 * `flexSelect` Generates a basic select field.
 * `flexSheet` Generates a flexform sheet.
 * `flexText` Generates an input field.
+* `flexFal` Generates a FAL input field.  Experimental.
 
 ### Fluid
 
@@ -90,6 +91,7 @@ Here's what's currently included in each template.
 * `sqlInsert` Generates code needed for a direct SQL insert query.
 * `sqlUpdate` Generates code needed for a direct SQL update query.
 * `ipmatch` Checks if REMOTE_ADDR == the IP from specialbody.com.
+* `flexParse` Generates boilerplate code to parse a flexform string that is stored in a variable (TYPO3 6+ I think)
 
 ## Contributing
 
