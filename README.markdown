@@ -6,7 +6,7 @@ This repository is a little funky since PHPStorm's file structure for Live Templ
 
 Here's what you're going to want to do:
 
-* `cd ~/Library/Preferences/WebIDE10/templates`
+* `cd ~/Library/Preferences/WebIde60/templates`
 * Now initialize the a repo: `git init`
 * Add the remote repo: `git remote add origin git@github.com:castiron/CIC-PhpStorm-Live-Templates.git`
 * Pull everything down: `git pull origin master`
