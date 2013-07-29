@@ -9,11 +9,15 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="true" />
       <option name="XML" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="PHP" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
     </context>
@@ -26,11 +30,15 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="true" />
       <option name="XML" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="PHP" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
     </context>
@@ -41,11 +49,15 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="true" />
       <option name="XML" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="PHP" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
     </context>
@@ -58,11 +70,15 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="true" />
       <option name="XML" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="PHP" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
     </context>
@@ -75,11 +91,15 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="true" />
       <option name="XML" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="PHP" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
     </context>
@@ -92,11 +112,15 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="true" />
       <option name="XML" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="PHP" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
     </context>
@@ -112,11 +136,15 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="true" />
       <option name="XML" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="PHP" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
     </context>
@@ -130,11 +158,15 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="true" />
       <option name="XML" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="PHP" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
     </context>
@@ -153,11 +185,15 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="true" />
       <option name="XML" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="PHP" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
     </context>
@@ -170,11 +206,15 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="true" />
       <option name="XML" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="PHP" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
     </context>
@@ -187,11 +227,15 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="true" />
       <option name="XML" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="PHP" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
     </context>
@@ -204,11 +248,15 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="true" />
       <option name="XML" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="PHP" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
     </context>
@@ -221,11 +269,36 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="true" />
       <option name="XML" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
       <option name="SQL" value="false" />
       <option name="PHP" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="flexFal" value="&lt;$field_name$&gt;&#10;  &lt;TCEforms&gt;&#10;    &lt;label&gt;$label$&lt;/label&gt;&#10;    &lt;config&gt;&#10;      &lt;type&gt;inline&lt;/type&gt;&#10;      &lt;foreign_table&gt;sys_file_reference&lt;/foreign_table&gt;&#10;      &lt;foreign_field&gt;uid_foreign&lt;/foreign_field&gt;&#10;      &lt;foreign_sortby&gt;sorting_foreign&lt;/foreign_sortby&gt;&#10;      &lt;foreign_table_field&gt;tablenames&lt;/foreign_table_field&gt;&#10;      &lt;foreign_match_fields type=&quot;array&quot;&gt;&#10;          &lt;fieldname&gt;image&lt;/fieldname&gt;&#10;      &lt;/foreign_match_fields&gt;&#10;      &lt;foreign_types type=&quot;array&quot;&gt;&#10;        &lt;numIndex index=&quot;2&quot;&gt;                                           &#10;          &lt;showitem&gt;--palette--;LLL:EXT:lang/locallang_tca.xlf:sys_file_reference.imageoverlayPalette;imageoverlayPalette,--palette--;;filePalette&lt;/showitem&gt;&#10;        &lt;/numIndex&gt;&#10;      &lt;/foreign_types&gt;&#10;      &lt;foreign_label&gt;uid_local&lt;/foreign_label&gt;&#10;      &lt;foreign_selector&gt;uid_local&lt;/foreign_selector&gt;&#10;      &lt;maxitems&gt;10&lt;/maxitems&gt;&#10;      &lt;foreign_selector_fieldTcaOverride type=&quot;array&quot;&gt;&#10;          &lt;config&gt;&#10;              &lt;appearance&gt;&#10;                  &lt;elementBrowserType&gt;file&lt;/elementBrowserType&gt;&#10;                  &lt;elementBrowserAllowed&gt;jpg,png&lt;/elementBrowserAllowed&gt;&#10;              &lt;/appearance&gt;&#10;          &lt;/config&gt;&#10;      &lt;/foreign_selector_fieldTcaOverride&gt;&#10;      &lt;appearance type=&quot;array&quot;&gt;&#10;          &lt;createNewRelationLinkTitle&gt;Add new Image&lt;/createNewRelationLinkTitle&gt;&#10;          &lt;useSortable&gt;TRUE&lt;/useSortable&gt;&#10;          &lt;showPossibleLocalizationRecords&gt;TRUE&lt;/showPossibleLocalizationRecords&gt;&#10;          &lt;showRemovedLocalizationRecords&gt;TRUE&lt;/showRemovedLocalizationRecords&gt;&#10;          &lt;showSynchronizationLink&gt;TRUE&lt;/showSynchronizationLink&gt;&#10;          &lt;enabledControls type=&quot;array&quot;&gt;&#10;              &lt;info&gt;FALSE&lt;/info&gt;&#10;              &lt;new&gt;TRUE&lt;/new&gt;&#10;              &lt;dragdrop&gt;TRUE&lt;/dragdrop&gt;&#10;              &lt;sort&gt;TRUE&lt;/sort&gt;&#10;              &lt;hide&gt;TRUE&lt;/hide&gt;&#10;              &lt;delete&gt;TRUE&lt;/delete&gt;&#10;              &lt;localize&gt;TRUE&lt;/localize&gt;&#10;          &lt;/enabledControls&gt;&#10;          &lt;levelLinksPosition&gt;both&lt;/levelLinksPosition&gt;&#10;      &lt;/appearance&gt;&#10;      &lt;behaviour&gt;&#10;          &lt;localizationMode&gt;select&lt;/localizationMode&gt;&#10;          &lt;localizeChildrenAtParentLocalization&gt;TRUE&lt;/localizeChildrenAtParentLocalization&gt;&#10;      &lt;/behaviour&gt;&#10;    &lt;/config&gt;&#10;  &lt;/TCEforms&gt;&#10;&lt;/$field_name$&gt;" description="Generate a FAL-type image field" toReformat="false" toShortenFQNames="true">
+    <variable name="field_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="label" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="PHP" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
       <option name="HAML" value="false" />
       <option name="OTHER" value="false" />
     </context>
