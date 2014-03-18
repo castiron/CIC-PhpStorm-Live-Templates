@@ -222,7 +222,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="ebdb" value="Tx_Extbase_Utility_Debugger::var_dump($variable$)" description="Extbase debug message" toReformat="false" toShortenFQNames="true">
+  <template name="ebdb" value="\TYPO3\CMS\Extbase\Utility\DebuggerUtility::var_dump($variable$)" description="Extbase debug message" toReformat="false" toShortenFQNames="true">
     <variable name="variable" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
